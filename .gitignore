@@ -1,0 +1,8 @@
+# Build artifacts
+build/
+
+# Executables
+app
+
+# Object files
+*.o
