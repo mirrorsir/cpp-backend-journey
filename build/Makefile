@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edu/workspace/cpp-backend-journey/week1
+CMAKE_SOURCE_DIR = /home/edu/workspace/cpp-backend-journey
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edu/workspace/cpp-backend-journey/week1/build
+CMAKE_BINARY_DIR = /home/edu/workspace/cpp-backend-journey/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/workspace/cpp-backend-journey/week1/build/CMakeFiles /home/edu/workspace/cpp-backend-journey/week1/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/workspace/cpp-backend-journey/build/CMakeFiles /home/edu/workspace/cpp-backend-journey/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/workspace/cpp-backend-journey/week1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/workspace/cpp-backend-journey/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,59 @@ app/fast:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
-Student.o: Student.cpp.o
+week1/Student.o: week1/Student.cpp.o
 
-.PHONY : Student.o
-
-# target to build an object file
-Student.cpp.o:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Student.cpp.o
-.PHONY : Student.cpp.o
-
-Student.i: Student.cpp.i
-
-.PHONY : Student.i
-
-# target to preprocess a source file
-Student.cpp.i:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Student.cpp.i
-.PHONY : Student.cpp.i
-
-Student.s: Student.cpp.s
-
-.PHONY : Student.s
-
-# target to generate assembly for a file
-Student.cpp.s:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/Student.cpp.s
-.PHONY : Student.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : week1/Student.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.o
-.PHONY : main.cpp.o
+week1/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/Student.cpp.o
+.PHONY : week1/Student.cpp.o
 
-main.i: main.cpp.i
+week1/Student.i: week1/Student.cpp.i
 
-.PHONY : main.i
+.PHONY : week1/Student.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.i
-.PHONY : main.cpp.i
+week1/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/Student.cpp.i
+.PHONY : week1/Student.cpp.i
 
-main.s: main.cpp.s
+week1/Student.s: week1/Student.cpp.s
 
-.PHONY : main.s
+.PHONY : week1/Student.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.s
-.PHONY : main.cpp.s
+week1/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/Student.cpp.s
+.PHONY : week1/Student.cpp.s
+
+week1/main.o: week1/main.cpp.o
+
+.PHONY : week1/main.o
+
+# target to build an object file
+week1/main.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/main.cpp.o
+.PHONY : week1/main.cpp.o
+
+week1/main.i: week1/main.cpp.i
+
+.PHONY : week1/main.i
+
+# target to preprocess a source file
+week1/main.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/main.cpp.i
+.PHONY : week1/main.cpp.i
+
+week1/main.s: week1/main.cpp.s
+
+.PHONY : week1/main.s
+
+# target to generate assembly for a file
+week1/main.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/week1/main.cpp.s
+.PHONY : week1/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... app"
 	@echo "... edit_cache"
-	@echo "... Student.o"
-	@echo "... Student.i"
-	@echo "... Student.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... week1/Student.o"
+	@echo "... week1/Student.i"
+	@echo "... week1/Student.s"
+	@echo "... week1/main.o"
+	@echo "... week1/main.i"
+	@echo "... week1/main.s"
 .PHONY : help
 
 

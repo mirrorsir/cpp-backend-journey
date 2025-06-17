@@ -1,0 +1,3 @@
+/home/edu/workspace/cpp-backend-journey/build/CMakeFiles/rebuild_cache.dir
+/home/edu/workspace/cpp-backend-journey/build/CMakeFiles/app.dir
+/home/edu/workspace/cpp-backend-journey/build/CMakeFiles/edit_cache.dir

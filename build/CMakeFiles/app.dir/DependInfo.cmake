@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edu/workspace/cpp-backend-journey/week1/Student.cpp" "/home/edu/workspace/cpp-backend-journey/week1/build/CMakeFiles/app.dir/Student.cpp.o"
-  "/home/edu/workspace/cpp-backend-journey/week1/main.cpp" "/home/edu/workspace/cpp-backend-journey/week1/build/CMakeFiles/app.dir/main.cpp.o"
+  "/home/edu/workspace/cpp-backend-journey/week1/Student.cpp" "/home/edu/workspace/cpp-backend-journey/build/CMakeFiles/app.dir/week1/Student.cpp.o"
+  "/home/edu/workspace/cpp-backend-journey/week1/main.cpp" "/home/edu/workspace/cpp-backend-journey/build/CMakeFiles/app.dir/week1/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
